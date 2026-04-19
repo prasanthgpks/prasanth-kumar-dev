@@ -37,13 +37,14 @@ export default function Hero() {
           <div>
             <motion.p
               {...fadeUp(0.15, 20, 0.6)}
-              className="font-display font-normal leading-[1.1] text-[42px] md:text-[72px] text-(--color-text)"
+              className="font-display font-normal leading-[1.1] text-[52px] md:text-[88px] text-(--color-text)"
+              style={{ fontWeight: 300 }}
             >
               I design &amp; build
             </motion.p>
             <motion.p
               {...fadeUp(0.25, 20, 0.6)}
-              className="font-display font-normal italic leading-[1.1] text-[42px] md:text-[72px] text-(--color-accent)"
+              className="font-display font-normal italic leading-[1.1] text-[52px] md:text-[88px] text-(--color-accent)"
             >
               web experiences.
             </motion.p>
@@ -68,7 +69,7 @@ export default function Hero() {
               className="inline-flex items-center justify-center px-7 py-[14px] rounded-[6px] font-body text-[15px] font-medium transition-all duration-200 ease-in-out hover:-translate-y-px"
               style={{ backgroundColor: 'var(--color-accent)', color: 'white' }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = 'var(--color-accent-hover)'
+                e.currentTarget.style.backgroundColor = '#a8501f'
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.backgroundColor = 'var(--color-accent)'

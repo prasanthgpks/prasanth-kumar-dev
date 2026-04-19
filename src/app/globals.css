@@ -13,23 +13,23 @@
   --color-brand-border: var(--color-border);
   --color-brand-border-strong: var(--color-border-strong);
 
-  --font-family-display: var(--font-playfair), Georgia, serif;
+  --font-family-display: var(--font-cormorant), Georgia, serif;
   --font-family-heading: var(--font-dm-sans), system-ui, sans-serif;
   --font-family-body: var(--font-inter), system-ui, sans-serif;
 }
 
 :root {
-  --color-primary: #0f0f0f;
-  --color-secondary: #1a1a1a;
-  --color-accent: #6c63ff;
-  --color-accent-hover: #5a52e0;
-  --color-bg: #ffffff;
-  --color-surface: #f8f8f8;
-  --color-surface-2: #f0f0f0;
-  --color-text: #0f0f0f;
-  --color-text-muted: #6b7280;
-  --color-border: #e5e7eb;
-  --color-border-strong: #d1d5db;
+  --color-primary: #1c1917;
+  --color-secondary: #292524;
+  --color-accent: #c2622a;
+  --color-accent-hover: #a8501f;
+  --color-bg: #faf7f4;
+  --color-surface: #f5ede4;
+  --color-surface-2: #ede4d8;
+  --color-text: #1c1917;
+  --color-text-muted: #78716c;
+  --color-border: #e8d9cc;
+  --color-border-strong: #d8c4b0;
 }
 
 html {
@@ -37,7 +37,7 @@ html {
 }
 
 ::selection {
-  background: #6c63ff22;
+  background: #c2622a22;
 }
 
 body {

@@ -92,8 +92,18 @@ export default function Skills() {
                   {group.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="font-body text-[13px] px-[14px] py-1.5 rounded-full border border-(--color-border) text-(--color-text) cursor-default transition-colors duration-150 hover:border-(--color-accent) hover:text-(--color-accent)"
+                      className="font-body text-[13px] px-[14px] py-1.5 rounded-full border border-(--color-border) text-(--color-text) cursor-default transition-all duration-150"
                       style={{ background: 'var(--color-surface-2)' }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.borderColor = '#c2622a'
+                        e.currentTarget.style.color = '#c2622a'
+                        e.currentTarget.style.backgroundColor = '#fdf0eb'
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.borderColor = ''
+                        e.currentTarget.style.color = ''
+                        e.currentTarget.style.backgroundColor = ''
+                      }}
                     >
                       {tag}
                     </span>

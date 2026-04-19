@@ -31,7 +31,7 @@ export default function RootLayout({
         className={allFonts}
         style={
           {
-            '--font-display': 'var(--font-playfair)',
+            '--font-display': 'var(--font-cormorant)',
             '--font-heading': 'var(--font-dm-sans)',
             '--font-body': 'var(--font-inter)',
           } as React.CSSProperties

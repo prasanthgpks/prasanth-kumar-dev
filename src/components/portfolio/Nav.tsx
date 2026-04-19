@@ -24,14 +24,15 @@ export default function Nav() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full bg-white/90 backdrop-blur-sm transition-colors duration-200${
+      className={`sticky top-0 z-50 w-full backdrop-blur-sm transition-colors duration-200${
         scrolled ? ' border-b border-(--color-border)' : ''
       }`}
+      style={{ backgroundColor: 'rgba(250, 247, 244, 0.92)' }}
     >
       <div className="mx-auto max-w-[1200px] px-6 flex items-center justify-between h-16">
         <Link
           href="/"
-          className="font-display text-[20px] font-medium text-(--color-text) tracking-wider hover:text-(--color-accent) transition-colors duration-200 no-underline"
+          className="font-display text-[22px] font-medium text-(--color-text) tracking-wider hover:text-(--color-accent) transition-colors duration-200 no-underline"
         >
           PK
         </Link>

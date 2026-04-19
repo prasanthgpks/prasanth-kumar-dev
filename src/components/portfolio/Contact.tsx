@@ -39,7 +39,7 @@ const labelStyle: React.CSSProperties = {
 
 function onFocus(e: React.FocusEvent<HTMLInputElement | HTMLTextAreaElement>) {
   e.target.style.borderColor = 'var(--color-accent)'
-  e.target.style.boxShadow = '0 0 0 3px #6c63ff26'
+  e.target.style.boxShadow = '0 0 0 3px rgba(194, 98, 42, 0.15)'
 }
 
 function onBlur(e: React.FocusEvent<HTMLInputElement | HTMLTextAreaElement>) {
@@ -157,7 +157,7 @@ export default function Contact() {
             }}
             onMouseEnter={(e) => {
               if (!isSubmitting && !isSuccess)
-                e.currentTarget.style.background = 'var(--color-accent-hover)'
+                e.currentTarget.style.background = '#a8501f'
             }}
             onMouseLeave={(e) => {
               if (!isSubmitting && !isSuccess)

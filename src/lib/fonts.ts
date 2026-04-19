@@ -8,6 +8,7 @@ import {
   Space_Grotesk,
   DM_Serif_Display,
   Lora,
+  Cormorant_Garamond,
 } from 'next/font/google'
 
 export const inter = Inter({
@@ -48,6 +49,13 @@ export const lora = Lora({
   variable: '--font-lora',
 })
 
+export const cormorantGaramond = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600'],
+  style: ['normal', 'italic'],
+  variable: '--font-cormorant',
+})
+
 export const allFonts = [
   inter.variable,
   dmSans.variable,
@@ -55,4 +63,5 @@ export const allFonts = [
   spaceGrotesk.variable,
   dmSerifDisplay.variable,
   lora.variable,
+  cormorantGaramond.variable,
 ].join(' ')

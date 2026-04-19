@@ -37,13 +37,13 @@ export default function Hero() {
           <div>
             <motion.p
               {...fadeUp(0.15, 20, 0.6)}
-              className="font-display font-normal leading-[1.1] text-[42px] md:text-[72px] text-[var(--color-text)]"
+              className="font-display font-normal leading-[1.1] text-[42px] md:text-[72px] text-(--color-text)"
             >
               I design &amp; build
             </motion.p>
             <motion.p
               {...fadeUp(0.25, 20, 0.6)}
-              className="font-display font-normal italic leading-[1.1] text-[42px] md:text-[72px] text-[var(--color-accent)]"
+              className="font-display font-normal italic leading-[1.1] text-[42px] md:text-[72px] text-(--color-accent)"
             >
               web experiences.
             </motion.p>
@@ -52,7 +52,7 @@ export default function Hero() {
           {/* Sub-headline */}
           <motion.p
             {...fadeUp(0.4, 0, 0.5)}
-            className="mt-6 font-body text-[16px] md:text-[18px] text-[var(--color-text-muted)] leading-[1.6] max-w-[520px]"
+            className="mt-6 font-body text-[16px] md:text-[18px] text-(--color-text-muted) leading-[1.6] max-w-[520px]"
           >
             Full-stack developer &amp; UI designer based in Melbourne.
             React, Next.js, TypeScript — with an eye for the details that matter.
@@ -78,7 +78,7 @@ export default function Hero() {
             </a>
             <a
               href="#contact"
-              className="inline-flex items-center justify-center px-7 py-[14px] rounded-[6px] font-body text-[15px] font-medium bg-transparent transition-all duration-200 ease-in-out hover:border-[var(--color-text)]"
+              className="inline-flex items-center justify-center px-7 py-[14px] rounded-[6px] font-body text-[15px] font-medium bg-transparent transition-all duration-200 ease-in-out hover:border-(--color-text)"
               style={{ border: '1px solid var(--color-border)', color: 'var(--color-text)' }}
             >
               Get in touch
@@ -94,7 +94,7 @@ export default function Hero() {
           <motion.div
             animate={{ y: [0, 6, 0] }}
             transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
-            className="text-[var(--color-text-muted)]"
+            className="text-(--color-text-muted)"
           >
             <ChevronDown size={20} />
           </motion.div>

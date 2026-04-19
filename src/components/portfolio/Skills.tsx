@@ -44,10 +44,10 @@ export default function Skills() {
       <div className="mx-auto max-w-[1200px] px-6">
 
         {/* Section header */}
-        <p className="font-body text-[12px] uppercase tracking-[0.08em] text-[var(--color-text-muted)] mb-3">
+        <p className="font-body text-[12px] uppercase tracking-[0.08em] text-(--color-text-muted) mb-3">
           Expertise
         </p>
-        <h2 className="font-display font-normal text-[32px] md:text-[48px] text-[var(--color-text)] mb-12">
+        <h2 className="font-display font-normal text-[32px] md:text-[48px] text-(--color-text) mb-12">
           Skills &amp; stack
         </h2>
 
@@ -65,12 +65,12 @@ export default function Skills() {
                 transition={{ delay: i * 0.08, duration: 0.5, ease }}
               >
                 {i > 0 && (
-                  <hr className="border-0 border-t border-[var(--color-border)]" />
+                  <hr className="border-0 border-t border-(--color-border)" />
                 )}
-                <h3 className="font-heading font-medium text-[17px] text-[var(--color-text)] pt-5 pb-2">
+                <h3 className="font-heading font-medium text-[17px] text-(--color-text) pt-5 pb-2">
                   {skill.name}
                 </h3>
-                <p className="font-body text-[14px] text-[var(--color-text-muted)] leading-[1.6] pb-5">
+                <p className="font-body text-[14px] text-(--color-text-muted) leading-[1.6] pb-5">
                   {skill.description}
                 </p>
               </motion.div>
@@ -86,14 +86,14 @@ export default function Skills() {
           >
             {techStack.map((group, i) => (
               <div key={group.category} style={{ marginTop: i === 0 ? 0 : 24 }}>
-                <p className="font-body text-[11px] uppercase tracking-[0.06em] text-[var(--color-text-muted)] font-medium mb-[10px]">
+                <p className="font-body text-[11px] uppercase tracking-[0.06em] text-(--color-text-muted) font-medium mb-[10px]">
                   {group.category}
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {group.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="font-body text-[13px] px-[14px] py-1.5 rounded-full border border-[var(--color-border)] text-[var(--color-text)] cursor-default transition-colors duration-150 hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]"
+                      className="font-body text-[13px] px-[14px] py-1.5 rounded-full border border-(--color-border) text-(--color-text) cursor-default transition-colors duration-150 hover:border-(--color-accent) hover:text-(--color-accent)"
                       style={{ background: 'var(--color-surface-2)' }}
                     >
                       {tag}

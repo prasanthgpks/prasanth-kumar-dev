@@ -90,13 +90,13 @@ export default function Contact() {
       <div className="mx-auto max-w-[680px] px-6">
 
         {/* Section header */}
-        <p className="font-body text-[12px] uppercase tracking-[0.08em] text-[var(--color-text-muted)] mb-3">
+        <p className="font-body text-[12px] uppercase tracking-[0.08em] text-(--color-text-muted) mb-3">
           Get in touch
         </p>
-        <h2 className="font-display font-normal text-[32px] md:text-[48px] text-[var(--color-text)]">
+        <h2 className="font-display font-normal text-[32px] md:text-[48px] text-(--color-text)">
           Let&apos;s work together
         </h2>
-        <p className="font-body text-[16px] text-[var(--color-text-muted)] leading-[1.7] mt-4">
+        <p className="font-body text-[16px] text-(--color-text-muted) leading-[1.7] mt-4">
           Open to full-time roles, freelance projects, and interesting collaborations.
           Based in Melbourne — available remotely worldwide.
         </p>
@@ -184,14 +184,14 @@ export default function Contact() {
         >
           <a
             href="mailto:hi@prasanth-kumar.dev"
-            className="flex items-center gap-2 font-body text-[14px] text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-150"
+            className="flex items-center gap-2 font-body text-[14px] text-(--color-text-muted) hover:text-(--color-text) transition-colors duration-150"
           >
             <Mail size={16} />
             hi@prasanth-kumar.dev
           </a>
           <a
             href="#"
-            className="flex items-center gap-2 font-body text-[14px] text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-150"
+            className="flex items-center gap-2 font-body text-[14px] text-(--color-text-muted) hover:text-(--color-text) transition-colors duration-150"
           >
             <LinkedinIcon size={16} />
             linkedin.com/in/prasanth-kumar

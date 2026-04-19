@@ -46,10 +46,10 @@ export default function Experience() {
       <div className="mx-auto max-w-[1200px] px-6">
 
         {/* Section header */}
-        <p className="font-body text-[12px] uppercase tracking-[0.08em] text-[var(--color-text-muted)] mb-3">
+        <p className="font-body text-[12px] uppercase tracking-[0.08em] text-(--color-text-muted) mb-3">
           Background
         </p>
-        <h2 className="font-display font-normal text-[32px] md:text-[48px] text-[var(--color-text)] mb-12">
+        <h2 className="font-display font-normal text-[32px] md:text-[48px] text-(--color-text) mb-12">
           Experience
         </h2>
 
@@ -63,11 +63,11 @@ export default function Experience() {
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.5, ease }}
           >
-            <p className="font-body text-[16px] leading-[1.8] text-[var(--color-text)] mb-5">
+            <p className="font-body text-[16px] leading-[1.8] text-(--color-text) mb-5">
               Melbourne-based developer with 8+ years of experience building
               production web applications across fintech, logistics, and SaaS.
             </p>
-            <p className="font-body text-[16px] leading-[1.8] text-[var(--color-text-muted)]">
+            <p className="font-body text-[16px] leading-[1.8] text-(--color-text-muted)">
               Currently building a design-focused portfolio to transition into
               UI-led roles and eventually launch a boutique web design agency.
             </p>
@@ -75,18 +75,18 @@ export default function Experience() {
             {/* Stats */}
             <div className="flex gap-8 mt-8">
               <div>
-                <p className="font-display text-[36px] leading-none text-[var(--color-accent)]">
+                <p className="font-display text-[36px] leading-none text-(--color-accent)">
                   8+
                 </p>
-                <p className="font-body text-[12px] text-[var(--color-text-muted)] mt-1">
+                <p className="font-body text-[12px] text-(--color-text-muted) mt-1">
                   years experience
                 </p>
               </div>
               <div>
-                <p className="font-display text-[36px] leading-none text-[var(--color-accent)]">
+                <p className="font-display text-[36px] leading-none text-(--color-accent)">
                   20+
                 </p>
-                <p className="font-body text-[12px] text-[var(--color-text-muted)] mt-1">
+                <p className="font-body text-[12px] text-(--color-text-muted) mt-1">
                   projects shipped
                 </p>
               </div>
@@ -95,7 +95,7 @@ export default function Experience() {
 
           {/* Right: Timeline */}
           <div className="mt-10 md:mt-0">
-            <div className="relative border-l-2 border-[var(--color-border)]">
+            <div className="relative border-l-2 border-(--color-border)">
               {roles.map((role, i) => (
                 <motion.div
                   key={i}
@@ -111,13 +111,13 @@ export default function Experience() {
                     style={{ background: 'var(--color-accent)' }}
                   />
 
-                  <h3 className="font-heading font-medium text-[16px] text-[var(--color-text)]">
+                  <h3 className="font-heading font-medium text-[16px] text-(--color-text)">
                     {role.title}
                   </h3>
-                  <p className="font-body text-[14px] text-[var(--color-accent)] mt-0.5">
+                  <p className="font-body text-[14px] text-(--color-accent) mt-0.5">
                     {role.company} · {role.period}
                   </p>
-                  <p className="font-body text-[13px] text-[var(--color-text-muted)]">
+                  <p className="font-body text-[13px] text-(--color-text-muted)">
                     {role.location}
                   </p>
 
@@ -125,7 +125,7 @@ export default function Experience() {
                     {role.bullets.map((bullet, j) => (
                       <li
                         key={j}
-                        className="relative font-body text-[14px] text-[var(--color-text-muted)] leading-[1.6] pl-3"
+                        className="relative font-body text-[14px] text-(--color-text-muted) leading-[1.6] pl-3"
                       >
                         <span
                           className="absolute left-0 top-2 w-1 h-1"

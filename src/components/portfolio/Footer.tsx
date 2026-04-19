@@ -24,12 +24,12 @@ const iconLinks = [
 
 export default function Footer() {
   return (
-    <footer className="w-full border-t border-[var(--color-border)]">
+    <footer className="w-full border-t border-(--color-border)">
       <div className="mx-auto max-w-[1200px] px-6 py-8 flex flex-col items-center gap-3">
-        <p className="font-display text-[15px] text-[var(--color-text)]">
+        <p className="font-display text-[15px] text-(--color-text)">
           Prasanth Kumar
         </p>
-        <p className="font-body text-[13px] text-[var(--color-text-muted)]">
+        <p className="font-body text-[13px] text-(--color-text-muted)">
           prasanth-kumar.dev · Melbourne, AU · Available for work
         </p>
         <div className="flex items-center gap-5 mt-1">
@@ -38,7 +38,7 @@ export default function Footer() {
               key={label}
               href={href}
               aria-label={label}
-              className="text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-150"
+              className="text-(--color-text-muted) hover:text-(--color-text) transition-colors duration-150"
             >
               <Icon size={18} />
             </a>

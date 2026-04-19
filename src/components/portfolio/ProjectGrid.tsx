@@ -24,10 +24,10 @@ export default function ProjectGrid() {
       <div className="mx-auto max-w-[1200px] px-6">
 
         {/* Section header */}
-        <p className="font-body text-[12px] uppercase tracking-[0.08em] text-[var(--color-text-muted)] mb-3">
+        <p className="font-body text-[12px] uppercase tracking-[0.08em] text-(--color-text-muted) mb-3">
           Selected work
         </p>
-        <h2 className="font-display font-normal text-[32px] md:text-[48px] text-[var(--color-text)] mb-12">
+        <h2 className="font-display font-normal text-[32px] md:text-[48px] text-(--color-text) mb-12">
           Projects
         </h2>
 

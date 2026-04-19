@@ -64,7 +64,7 @@ export default function Experience() {
             transition={{ duration: 0.5, ease }}
           >
             <p className="font-body text-[16px] leading-[1.8] text-[var(--color-text)] mb-5">
-              Melbourne-based developer with [X] years of experience building
+              Melbourne-based developer with 8+ years of experience building
               production web applications across fintech, logistics, and SaaS.
             </p>
             <p className="font-body text-[16px] leading-[1.8] text-[var(--color-text-muted)]">
@@ -76,7 +76,7 @@ export default function Experience() {
             <div className="flex gap-8 mt-8">
               <div>
                 <p className="font-display text-[36px] leading-none text-[var(--color-accent)]">
-                  [X]+
+                  8+
                 </p>
                 <p className="font-body text-[12px] text-[var(--color-text-muted)] mt-1">
                   years experience
@@ -84,7 +84,7 @@ export default function Experience() {
               </div>
               <div>
                 <p className="font-display text-[36px] leading-none text-[var(--color-accent)]">
-                  [X]+
+                  20+
                 </p>
                 <p className="font-body text-[12px] text-[var(--color-text-muted)] mt-1">
                   projects shipped

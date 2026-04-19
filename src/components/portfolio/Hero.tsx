@@ -13,7 +13,7 @@ const fadeUp = (delay: number, y = 20, duration = 0.6) => ({
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center">
+    <section className="relative flex flex-col justify-center" style={{ minHeight: 'calc(100vh - 64px)' }}>
       <div className="mx-auto w-full max-w-[1200px] px-6">
         <div className="max-w-[680px]">
 

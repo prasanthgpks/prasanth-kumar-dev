@@ -39,7 +39,6 @@ export default function Skills() {
     <section
       id="skills"
       className="w-full py-20 md:py-[120px]"
-      style={{ background: 'var(--color-surface)' }}
     >
       <div className="mx-auto max-w-[1200px] px-6">
 

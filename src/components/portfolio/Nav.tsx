@@ -31,12 +31,12 @@ export default function Nav() {
       <div className="mx-auto max-w-[1200px] px-6 flex items-center justify-between h-16">
         <Link
           href="/"
-          className="font-display text-[20px] font-medium text-(--color-text) no-underline"
+          className="font-display text-[20px] font-medium text-(--color-text) tracking-wider hover:text-(--color-accent) transition-colors duration-200 no-underline"
         >
           PK
         </Link>
 
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-10">
           {navLinks.map((link) => (
             <a
               key={link.href}

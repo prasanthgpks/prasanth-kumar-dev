@@ -17,9 +17,9 @@ function LinkedinIcon({ size = 18 }: { size?: number }) {
 }
 
 const iconLinks = [
-  { icon: GithubIcon, href: '#', label: 'GitHub' },
-  { icon: LinkedinIcon, href: '#', label: 'LinkedIn' },
-  { icon: Mail, href: '#', label: 'Email' },
+  { icon: GithubIcon, href: 'https://github.com/prasanthgpks', label: 'GitHub' },
+  { icon: LinkedinIcon, href: 'https://linkedin.com/in/prasanth-kumar', label: 'LinkedIn' },
+  { icon: Mail, href: 'mailto:hi@prasanth-kumar.dev', label: 'Email' },
 ]
 
 export default function Footer() {
@@ -30,7 +30,7 @@ export default function Footer() {
           Prasanth Kumar
         </p>
         <p className="font-body text-[13px] text-(--color-text-muted)">
-          prasanth-kumar.dev · Melbourne, AU · Available for work
+          prasanth-kumar.dev · Melbourne, AU · Open to opportunities
         </p>
         <div className="flex items-center gap-5 mt-1">
           {iconLinks.map(({ icon: Icon, href, label }) => (

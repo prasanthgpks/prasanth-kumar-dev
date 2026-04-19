@@ -6,36 +6,36 @@ const ease = [0.25, 0.1, 0.25, 1] as const
 
 const roles = [
   {
-    title: 'Senior Developer',
-    company: 'Current Company',
-    period: '20XX — Present',
+    title: 'Development Consultant',
+    company: 'Fred IT Group',
+    period: 'Jul 2025 — Present',
     location: 'Melbourne, AU',
     bullets: [
-      'Led frontend architecture for [product], serving [X] users',
-      'Introduced design system reducing UI inconsistencies by [X]%',
-      'Stack: React, TypeScript, Next.js, [backend tech]',
+      'Built an AI-powered chat interface in Dispense Web UI using an MCP server, enabling natural language queries and reducing screen navigation',
+      "Delivered features and production support for Fred's web and Windows pharmacy management products across Agile/SAFe teams",
+      'Stack: C# .NET, WinForms, DevExpress, SQL Server, Azure, SSIS, SSRS',
     ],
   },
   {
-    title: 'Developer',
-    company: 'Previous Company',
-    period: '20XX — 20XX',
+    title: 'Senior Software Engineer',
+    company: 'Jonas Software',
+    period: 'Oct 2023 — Jul 2025',
     location: 'Melbourne, AU',
     bullets: [
-      'Built and maintained [type of product]',
-      'Collaborated with design team on [feature/project]',
-      'Stack: [tech stack]',
+      'Led full-stack development of EmqNet platform — RESTful APIs in C#/.NET with Angular SPA frontend serving enterprise clients',
+      'Integrated Azure services (App Services, Functions, APIM, Service Bus, SQL MI) for high availability and performance',
+      'Stack: C# ASP.NET, AngularJS, TypeScript, Azure, SignalR, Entity Framework, SQL Server',
     ],
   },
   {
-    title: '[Role Title]',
-    company: '[Company]',
-    period: '20XX — 20XX',
+    title: 'Software Engineer',
+    company: 'Kmart Australia',
+    period: 'Jun 2022 — Oct 2023',
     location: 'Melbourne, AU',
     bullets: [
-      '[Key responsibility or achievement]',
-      '[Key responsibility or achievement]',
-      'Stack: [tech stack]',
+      'Contributed to Migrate to Cloud (M2C) initiative — provisioned AWS infrastructure (EC2, RDS, Lambda, API Gateway) using CloudFormation and CDK',
+      'Maintained legacy ASP.NET systems and wrote PowerShell automation for scheduled DB operations and file transfers',
+      'Stack: TypeScript, C#, AWS, GitHub Actions, Jenkins, Octopus Deploy, SQL Server, IBM MQ',
     ],
   },
 ]
@@ -64,12 +64,12 @@ export default function Experience() {
             transition={{ duration: 0.5, ease }}
           >
             <p className="font-body text-[16px] leading-[1.8] text-(--color-text) mb-5">
-              Melbourne-based developer with 8+ years of experience building
-              production web applications across fintech, logistics, and SaaS.
+              Melbourne-based full-stack developer with 8+ years of experience
+              building production applications across healthcare, retail, and SaaS.
             </p>
             <p className="font-body text-[16px] leading-[1.8] text-(--color-text-muted)">
-              Currently building a design-focused portfolio to transition into
-              UI-led roles and eventually launch a boutique web design agency.
+              Currently transitioning into UI-led roles, combining deep backend
+              expertise with a growing focus on design systems and frontend craft.
             </p>
 
             {/* Stats */}

@@ -28,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={allFonts} suppressHydrationWarning>
       <body
+        className={allFonts}
         style={
           {
             '--font-display': 'var(--font-playfair)',

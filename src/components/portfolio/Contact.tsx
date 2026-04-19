@@ -85,7 +85,6 @@ export default function Contact() {
     <section
       id="contact"
       className="w-full py-20 md:py-[120px]"
-      style={{ background: 'var(--color-surface)' }}
     >
       <div className="mx-auto max-w-[680px] px-6">
 

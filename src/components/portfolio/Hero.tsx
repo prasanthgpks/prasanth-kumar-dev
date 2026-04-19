@@ -13,7 +13,7 @@ const fadeUp = (delay: number, y = 20, duration = 0.6) => ({
 
 export default function Hero() {
   return (
-    <section className="relative flex flex-col justify-center" style={{ minHeight: 'calc(100vh - 64px)' }}>
+    <section className="relative flex flex-col justify-center" style={{ minHeight: 'calc(100dvh - 64px)' }}>
       <div className="mx-auto w-full max-w-[1200px] px-6">
         <div className="max-w-[680px]">
 
@@ -24,7 +24,7 @@ export default function Hero() {
               style={{ background: '#f0fdf4', color: '#15803d', borderColor: '#bbf7d0' }}
             >
               <motion.span
-                className="block w-[6px] h-[6px] rounded-full flex-shrink-0"
+                className="block w-[6px] h-[6px] rounded-full shrink-0"
                 style={{ background: '#22c55e' }}
                 animate={{ scale: [1, 1.4, 1], opacity: [1, 0.5, 1] }}
                 transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}

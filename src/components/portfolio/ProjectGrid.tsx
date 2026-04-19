@@ -24,7 +24,7 @@ export default function ProjectGrid() {
       <div className="mx-auto max-w-[1200px] px-6">
 
         {/* Section header */}
-        <p className="font-body text-[12px] uppercase tracking-[0.08em] text-(--color-text-muted) mb-3">
+        <p className="font-body text-[12px] uppercase text-(--color-text-muted) mb-3" style={{ letterSpacing: '0.12em' }}>
           Selected work
         </p>
         <h2 className="font-display font-normal text-[32px] md:text-[48px] text-(--color-text) mb-12">
@@ -104,7 +104,7 @@ export default function ProjectGrid() {
                   <motion.div
                     whileHover={isLive ? { scale: 1.08 } : undefined}
                     transition={{ duration: 0.2 }}
-                    className="flex-shrink-0 ml-4"
+                    className="shrink-0 ml-4"
                     style={{ opacity: isLive ? 1 : 0.4 }}
                   >
                     <Link

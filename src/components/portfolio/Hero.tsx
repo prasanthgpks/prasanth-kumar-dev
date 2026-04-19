@@ -13,7 +13,16 @@ const fadeUp = (delay: number, y = 20, duration = 0.6) => ({
 
 export default function Hero() {
   return (
-    <section className="relative flex flex-col justify-center" style={{ minHeight: 'calc(100dvh - 64px)' }}>
+    <section
+      className="relative"
+      style={{
+        minHeight: 'calc(100dvh - 64px)',
+        paddingTop: '0',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+      }}
+    >
       <div className="mx-auto w-full max-w-[1200px] px-6">
         <div className="max-w-[680px]">
 
@@ -37,14 +46,20 @@ export default function Hero() {
           <div>
             <motion.p
               {...fadeUp(0.15, 20, 0.6)}
-              className="font-display font-normal leading-[1.1] text-[52px] md:text-[88px] text-(--color-text)"
-              style={{ fontWeight: 300 }}
+              className="font-display font-normal leading-[1.1] text-(--color-text)"
+              style={{
+                fontWeight: 900,
+                WebkitFontSmoothing: 'antialiased',
+                fontFamily: '"Segoe UI Black", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif',
+                fontSize: 'clamp(40px, 6.5vw, 80px)',
+              }}
             >
               I design &amp; build
             </motion.p>
             <motion.p
               {...fadeUp(0.25, 20, 0.6)}
-              className="font-display font-normal italic leading-[1.1] text-[52px] md:text-[88px] text-(--color-accent)"
+              className="font-display font-normal italic leading-[1.1] text-(--color-accent)"
+              style={{ fontSize: 'clamp(40px, 6.5vw, 80px)', whiteSpace: 'nowrap' }}
             >
               web experiences.
             </motion.p>
